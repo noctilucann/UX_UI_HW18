@@ -1,5 +1,9 @@
 .home {
-    background-image: url(/images/background.png);
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 740px;
+    height: calc(100vh - 60px);
 }
 
 h1 {
@@ -22,6 +26,37 @@ h2 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+h3 {
+    font-family: 'digibopregular';
+    color: #480123;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 5.12px;
+    margin: 0 auto;
+}
+
+h4 {
+    color: #480123;
+    font-family: Hanno;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.2px;
+}
+
+p {
+    color: #480123;
+    font-family: Hanno;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.92px;
 }
 
 /*Navigation CSS*/
@@ -97,12 +132,73 @@ li {
 }
 
 button {
-    
     background-color: none;
     border: none;
     color: #480123;
 }
 
+/*My Skills CSS*/
+.sectionHead {
+    display: flex;
+    padding: 0px 32px;
+    align-items: center;
+    gap: 16px;
+    border-radius: 32px;
+    border: 8px solid #A82162;
+    background: #FFF1CE;
+    margin: 0 auto;
+}
+
+.sectionHead img {
+    height: 64px;
+}
+
+#mySkills-Grid {
+    display: grid;
+    grid-template-rows: max-content 3fr 3fr 3fr max-content;
+    padding: 32;
+}
+
+.skill-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/*.sideAccent {
+    background-image: url(../images/diamondLine.svg);
+    background-repeat: no-repeat;
+}
+
+/*My Work CSS*/
+#myWork {
+    background: #E1EAFF;
+}
+
+#myWork img {
+    height: 64px;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1106px;
+    margin: 0 auto;
+    gap: 73px;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.imageContainer {
+    background: #FFF1CE;
+    width: 320px;
+    height: 320px;
+    margin: 0 auto;
+}
 
 /*Footer CSS*/
 footer {
