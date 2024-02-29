@@ -1,0 +1,115 @@
+.home {
+    background-image: url(/images/background.png);
+}
+
+h1 {
+    font-family: 'digibopregular';
+    color: #FFF1CE;
+    stroke-width: 16;
+    -webkit-text-stroke-color: #A82162;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 10.24px;
+}
+
+h2 {
+    font-family: 'hannoregular';
+    color: #480123;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*Navigation CSS*/
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    color: #480123
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+}
+
+nav {
+    width: 72%;
+    padding: 1%;
+}
+
+nav ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+li {
+    font-family: 'hannoregular';
+    font-size: 24px;
+}
+
+.logo {
+    text-align: center;
+}
+
+/*Hero section CSS*/
+.heroImg {
+    padding: 25px;
+}
+
+.container {
+    position: relative;
+    height: 424px;
+    width: 1088px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.leftSide{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.star {
+    position: relative;
+    border: 2px solid black;
+    width: 910px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.star img {
+    height: 476px;
+}
+
+.welcome {
+    display: flex;
+    margin-left: -237px;
+}
+
+.tagline {
+    width: 515px;
+    margin-top: -112px;
+}
+
+button {
+    
+    background-color: none;
+    border: none;
+    color: #480123;
+}
+
+
+/*Footer CSS*/
+footer {
+    background-color: #373738;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+}
